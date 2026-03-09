@@ -1,7 +1,7 @@
 class Shuru < Formula
   desc "Local-first microVM sandbox for AI agents"
   homepage "https://github.com/superhq-ai/shuru"
-  version "0.3.0"
+  version "0.2.1"
 
   depends_on arch: :arm64
   depends_on :macos

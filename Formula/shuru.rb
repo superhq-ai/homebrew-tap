@@ -1,7 +1,7 @@
 class Shuru < Formula
   desc "Local-first microVM sandbox for AI agents"
   homepage "https://github.com/superhq-ai/shuru"
-  version "0.5.5"
+  version "0.5.6"
 
   depends_on arch: :arm64
   depends_on :macos
@@ -9,7 +9,7 @@ class Shuru < Formula
   on_macos do
     on_arm do
       url "https://github.com/superhq-ai/shuru/releases/download/v#{version}/shuru-v#{version}-darwin-aarch64.tar.gz"
-      sha256 "5541c5ef39a9f7d6a2846dfc4ddd6f97baf64f96cba8edad058ef836d5125b26"
+      sha256 "a5ae0b430fdff1807f0510fa6483d5bd4cfb35ce1da22bfe137e521943d88761"
     end
   end
 

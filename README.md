@@ -1,6 +1,6 @@
 # homebrew-tap
 
-Homebrew formulae for SuperHQ projects.
+Homebrew formulae and casks for SuperHQ projects.
 
 ## Install
 
@@ -16,4 +16,14 @@ brew tap superhq-ai/tap
 
 ```bash
 brew install shuru
+```
+
+## Casks
+
+| Cask | Description |
+|------|-------------|
+| `superhq` | AI agent orchestration desktop app |
+
+```bash
+brew install --cask superhq
 ```

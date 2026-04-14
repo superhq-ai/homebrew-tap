@@ -1,6 +1,6 @@
 cask "superhq" do
-  version "0.3.3"
-  sha256 "256b15b481eb31af3adda1d0f6b57e6f5acca2537e083bdf80f25b23564c417f"
+  version "0.3.4"
+  sha256 "00008375cd565f173de6b69b4809ba2d2acf5634cbdeb44a8b4d5c28d5b717d1"
 
   url "https://github.com/superhq-ai/superhq/releases/download/v#{version}/SuperHQ-#{version}.dmg"
   name "SuperHQ"

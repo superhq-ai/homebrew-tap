@@ -13,9 +13,11 @@ brew tap superhq-ai/tap
 | Formula | Description |
 |---------|-------------|
 | `shuru` | Local-first microVM sandbox for AI agents |
+| `neko` | Expose a sandbox port to the web in one command |
 
 ```bash
 brew install shuru
+brew install neko
 ```
 
 ## Casks

@@ -7,7 +7,7 @@ cask "superhq" do
   desc "AI agent orchestration desktop app"
   homepage "https://github.com/superhq-ai/superhq"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   depends_on arch: :arm64
 
   app "SuperHQ.app"

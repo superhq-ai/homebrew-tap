@@ -17,8 +17,10 @@ brew tap superhq-ai/tap
 
 ```bash
 brew install shuru
-brew install neko
+brew install superhq-ai/tap/neko
 ```
+
+`neko` is installed by its full name because Homebrew core has an unrelated formula of the same name.
 
 ## Casks
 

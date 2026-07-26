@@ -1,21 +1,21 @@
 class Neko < Formula
   desc "Expose a sandbox port to the web in one command"
   homepage "https://github.com/superhq-ai/neko-computer"
-  version "0.1.3"
+  version "0.1.4"
 
   depends_on arch: :arm64
 
   on_macos do
     on_arm do
       url "https://github.com/superhq-ai/neko-computer/releases/download/v#{version}/neko-v#{version}-darwin-aarch64.tar.gz"
-      sha256 "32d6471e439f4b3d2a90c2cd41e4d853d3e9198a85d5661d0219039e53ecefe2"
+      sha256 "10395835ca2e67a181713bca8e8c32e0c1f82bcd7d99539517250dc9656f3950"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/superhq-ai/neko-computer/releases/download/v#{version}/neko-v#{version}-linux-aarch64.tar.gz"
-      sha256 "5f8b9ea316b9d6a21bd87016e51ee898a6265ccf48ee2a4cc2364f88839576d2"
+      sha256 "af42489963cdfcd4a998d84b168eb899aaf719353a6f5a2f7a0c720c3cfe149f"
     end
   end
 
